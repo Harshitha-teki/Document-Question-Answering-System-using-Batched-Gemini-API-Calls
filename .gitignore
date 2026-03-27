@@ -15,6 +15,9 @@ dist/
 build/
 *.egg-info/
 
+data/           
+tempDir/
+uploads/
 # --- Docker ---
 .dockerignore
 # (Note: Do NOT ignore docker-compose.yml, but do ignore local data volumes)
