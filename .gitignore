@@ -1,0 +1,37 @@
+# --- Secrets & Environment ---
+.env
+*.env
+secrets.py
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.venv
+venv/
+ENV/
+dist/
+build/
+*.egg-info/
+
+# --- Docker ---
+.dockerignore
+# (Note: Do NOT ignore docker-compose.yml, but do ignore local data volumes)
+docker_data/
+
+# --- Streamlit & Frontend ---
+.streamlit/config.toml
+# If you save the diagram in assets, don't ignore it, 
+# but ignore temporary uploads:
+tempDir/
+uploads/
+
+# --- OS Specific ---
+.DS_Store
+Thumbs.db
+
+# --- Logs & Databases ---
+*.log
+*.sqlite
+db.json
